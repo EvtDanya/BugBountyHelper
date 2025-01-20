@@ -8,7 +8,7 @@ from typing import Self
 import yaml
 from dotenv import load_dotenv
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("bbHelper")
 
 
 @dataclass
